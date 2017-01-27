@@ -8,7 +8,7 @@ var people = {
 	"0" : {
 		"name" : "Jaap Smit",
 		"titel" : "Het Schild: van Wapen tot Icoon",
-		"tekst" : ["empty", "empty"],
+		"tekst" : ["Ik hou van het spel, ik kan het alleen niet goed spelen"],
 		"egoMention" : "0",
 		"font" : "times",
 		"link" : "https://kabk.github.io/go-theses-17-jaap-smit/",
