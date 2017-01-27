@@ -801,6 +801,17 @@ line-height:10px;
   }
 }
 
+@keyframes manus{
+  0%{
+    background-color:black;
+  }
+  50%{
+    background-color:blue;
+  }
+  100%{
+    background-color:black;
+  }
+}
 
 @keyframes wiesje{
   0%{
@@ -810,7 +821,19 @@ line-height:10px;
     -webkit-transform: scale(1);
   }
   100%{
-    -webkit-transform: scale(0.8);
+    -webkit-transform: scale(0.8);   
+  }
+}
+
+@keyframes bohye{
+  0%{
+    -webkit-transform: scale(1);
+  }
+  50%{
+    -webkit-transform: scale(1.5);
+  }
+  100%{
+    -webkit-transform: scale(1);   
   }
 }
 
@@ -867,10 +890,69 @@ background-color: black;
   }
 }
 
+@keyframes haewon{
+  0%{
+    color: black;
+
+  }
+  50%{
+    color: grey;
+
+  }
+  100%{
+    color: black;
+  }
+}
+
 @keyframes ninthe{
   0% { text-shadow: 0px 0px 0px rgba(255, 0, 0, 1);}
   50% { text-shadow: 0px 0px 30px rgba(255, 0, 0, 1); }
   100% { text-shadow: 0px 0px 0px rgba(255, 0, 0, 1);}
+}
+
+@keyframes lisa{
+  0%{
+    color:white;
+
+  }
+  50%{
+    color:black;
+
+  }
+  100%{
+    color:white;
+
+  }
+}
+
+@keyframes lisa2{
+  0%{
+    background-color:black;
+
+  }
+  50%{
+    background-color:white;
+
+  }
+  100%{
+    background-color:black;
+
+  }
+}
+
+@keyframes janne{
+  0%{
+    color:blue;
+
+  }
+  50%{
+    color:black;
+
+  }
+  100%{
+    color:blue;
+
+  }
 }
 
 .jaap.active{
@@ -906,7 +988,9 @@ background-color: black;
 }
 
 .janne.active {
-
+  h1{
+    animation: janne 0.5s infinite;
+  }
 }
 
 .katerina.active {
@@ -993,11 +1077,18 @@ background-color: black;
 }
 
 .lisa.active {
+  animation: lisa2 3s infinite;
+  h1{
+    animation: lisa 3s infinite;
+  }
   // wildcard
 }
 
 .haewon.active {
   // wildcard
+  h1{
+    animation: haewon 0.5s infinite;
+  }
 }
 
 .ninthe.active {
@@ -1012,10 +1103,18 @@ background-color: black;
 
 .bohye.active {
   // wildcard
+  h1{
+    animation:bohye 0.5s infinite;
+  }
 }
 
 .manus.active {
-  //
+
+  h1{
+    border-radius:15px;
+    animation: manus 5s infinite;
+  }
+
 }
 
 .jamie.active {
