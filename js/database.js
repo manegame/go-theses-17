@@ -212,7 +212,7 @@ var people = {
 	"19" : {
 		"name" : "Ninthe Kiemeneij",
 		"titel" : "Concreet en Langdradig",
-		"tekst" : ["Als ik kijk naar de beeldende kunst, dan merk ik dat de werken waar een persoonlijke touch in liggen mij meer raken dan grafisch werk dat vaak erg rigide wordt uitgewerkt.", "vaakenorme) onderzoek, zie ik  Natuurlijk, ik kan met een redelijk oog beoordelen of het idee en de visualisering daarvan goed in elkaar zit of niet, maar het concept en simpelweg niet terugkomen in een set van objecten of projecties, waar ik geen persoonlijke touch -of liever gezegd, emotie- in terugzie."],
+		"tekst" : ["Als ik kijk naar de beeldende kunst, dan merk ik dat de werken waar een persoonlijke touch in liggen mij meer raken dan grafisch werk dat vaak erg rigide wordt uitgewerkt", "vaak enorme onderzoek, zie ik  Natuurlijk, ik kan met een redelijk oog beoordelen of het idee en de visualisering daarvan goed in elkaar zit of niet, maar het concept en simpelweg niet terugkomen in een set van objecten of projecties, waar ik geen persoonlijke touch -of liever gezegd, emotie- in terugzie."],
 		"egoMention" : "53",
 		"font" : "arvo",
 		"link" : "https://kabk.github.io/go-theses-17-ninthe-kiemeneij-concreet-en-langdradig/",
@@ -399,6 +399,7 @@ $(document).ready(function(){
 $( "#show" ).click(function() {
   $( "#showoverview" ).fadeToggle(500);
 	$('.top-nav a > p').toggleClass('less');
+	$('.next-nav > p, .prev-nav > p').toggleClass('inactive');
 });
 
 // $('.top-nav').on('mouseover' , function(){
